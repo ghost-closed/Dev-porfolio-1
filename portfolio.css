@@ -15,11 +15,6 @@ body {
   background-color: #151515;
   color: #ffffff;
   /* border: 2px solid; */
-  max-width: 1200px;
-  width: 100%;
-  padding: 0 20px;
-  
-  margin: auto;
   /* flex: auto; */
 }
 ul,
@@ -44,6 +39,13 @@ h3 {
 p{
   font-size: 18px;
 }
+.container{
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: auto;
+}
+
 
 .social-icons {
   display: flex;
@@ -57,7 +59,7 @@ p{
   right: 9px;
   top: 2px;
 }
-.container{
+.container-1{
   position: relative;
   margin: auto;
   padding: 40px 0;
