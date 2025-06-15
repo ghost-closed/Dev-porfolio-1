@@ -3,255 +3,289 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <title>Karimtech - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./portfolio.css">
   </head>
   <body>
-    <header class="container-1">
+    <div class="container-1">
       <div class="top-header container">
         <div>karimtech</div>
         <div class="social-icons">
-          <img
-            src="./assets/images/icon-github.svg"
-            alt="icon-github"
-          />
+          <img src="./assets/images/icon-github.svg" alt="GitHub" />
           <img
             src="./assets/images/icon-frontend-mentor.svg"
-            alt="icon-frontend-mentor"
+            alt="Frontend Mentor"
           />
-          <img
-            src="./assets/images/icon-linkedin.svg"
-            alt="icon-linkedin"
-          />
-          <img
-            src="./assets/images/icon-twitter.svg"
-            alt="icon-twitter"
-          />
+          <img src="./assets/images/icon-linkedin.svg" alt="LinkedIn" />
+          <img src="./assets/images/icon-twitter.svg" alt="Twitter" />
         </div>
       </div>
 
-      <div class="container">
-        <h1 class="intro">Nice to meet you! I'm <span class="underline">Abdoukarim.</span></h1>
-      <p class="front">
-        Based in the UK, I'm a front-end developer passionate about building
-        accessible web apps that users love.
-      </p>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="intro">
+            Nice to meet you! I'm <span class="underline">Abdoukarim.</span>
+          </h1>
+          <p class="front">
+            Based in the UK, I'm a front-end developer passionate about building
+            accessible web apps that users love.
+          </p>
+          <a href="#contact" class="touch">CONTACT ME</a>
+        </div>
 
-      <div class="touch"><h3 >CONTACT ME</h3></div>
+        <div class="hero-wrapper">
+          <img src="./assets/images/my-image-profile.png" alt="Profile photo" />
+        </div>
 
-      <div class="circle"><img
-        src="./assets/images/pattern-circle.svg"
-        alt="pattern-circle"/>
+        <div class="parttern">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke="#4EE1A0"
+              stroke-width="2"
+              fill="none"
+              opacity="0.5"
+            />
+          </svg>
+        </div>
+
+        <div class="circle">
+          <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+            <circle cx="40" cy="40" r="30" fill="#4EE1A0" opacity="0.3" />
+          </svg>
+        </div>
       </div>
+    </div>
 
-      <div class="hero-wrapper">
-        <img
-          src="./assets/images/my-image-profile.jpg"
-          alt="Profile photo"
-        />
-      </div>
-
-      <div class="parttern container">
-      <img
-        src="./assets/images/pattern-rings.svg"
-        alt="pattern-rings"
-      />
-      </div>
-      </div>
-    </header>
-    
-
-    <main class="container-2 ">
+    <main class="container-2">
       <div class="s-main container">
-
-      <div class="experience">
-      <ul>
-        <li>
-          <h2>HTML</h2>
-          <h3>4 Years Experience</h3>
-        </li>
-
-        <li>
-          <h2>CSS</h2>
-          <h3>4 Years Experience</h3>
-        </li>
-
-        <li>
-          <h2>Javascript</h2>
-          <h3>4 Years Experience</h3>
-        </li>
-      </ul>
-
+        <div class="experience-grid">
+          <div class="experience-item">
+            <h2>HTML</h2>
+            <h3>4 Years Experience</h3>
+          </div>
+          <div class="experience-item">
+            <h2>CSS</h2>
+            <h3>4 Years Experience</h3>
+          </div>
+          <div class="experience-item">
+            <h2>JavaScript</h2>
+            <h3>4 Years Experience</h3>
+          </div>
+          <div class="experience-item">
+            <h2>Accessibility</h2>
+            <h3>4 Years Experience</h3>
+          </div>
+          <div class="experience-item">
+            <h2>React</h2>
+            <h3>3 Years Experience</h3>
+          </div>
+          <div class="experience-item">
+            <h2>Sass</h2>
+            <h3>3 Years Experience</h3>
+          </div>
+        </div>
       </div>
 
-      <div class="experience-2">
-        <ul>
-        <li>
-          <h2>Accessibility</h2>
-          <h3>4 Years Experience</h3>
-        </li>
+      <div class="pattern-2">
+        <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+          <circle
+            cx="50"
+            cy="50"
+            r="40"
+            stroke="#4EE1A0"
+            stroke-width="2"
+            fill="none"
+            opacity="0.5"
+          />
+        </svg>
+      </div>
 
-        <li>
-          <h2>React</h2>
-          <h3>3 Years Experience</h3>
-        </li>
-
-        <li class="sass">
-          <h2>Sass</h2>
-          <h3>3 Years Experience</h3>
-        </li>
-      </ul>
-      
-      </div>
-      </div>
-      <div 
-      class="pattern-2">
-        <img
-          src="./assets/images/pattern-rings.svg"
-          alt="pattern-rings"
-        />
-      </div>
       <div class="contact container">
         <div class="project"><h1>Projects</h1></div>
-        <div class="me"><h3>CONTACT ME</h3></div>
+        <a href="#contact" class="me">CONTACT ME</a>
       </div>
-      
-      <div class="photo container">
-        <ul>
-          <li class="first">
+
+      <div class="container">
+        <div class="projects-grid">
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-1-large.webp"
-              alt="thumbnail-project-1-large"
+              alt="Design Portfolio"
             />
-            <h3>DESIGN PORTFOLIO</h3>
-            <h4>HTML CSS</h4>
-               <div class="overlay-first"><a href="">VIEW PROJECT</a>
-            <a href="">VIEW CODE</a>
+            <div class="project-info">
+              <h3>DESIGN PORTFOLIO</h3>
+              <h4>HTML CSS</h4>
             </div>
-          </li>
+            <div class="project-overlay">
+              <a href="#" aria-label="View Design Portfolio Project"
+                >VIEW PROJECT</a
+              >
+              <a href="#" aria-label="View Design Portfolio Code">VIEW CODE</a>
+            </div>
+          </div>
 
-          <li class="second">
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-2-large.webp"
-              alt=""/>
-            <h3>E-LEARNING LANDING PAGE</h3>
-            <h4>HTML CSS</h4>
-            <div class="overlay-content"><a href="">VIEW PROJECT</a>
-            <a href="">VIEW CODE</a>
+              alt="E-Learning Landing Page"
+            />
+            <div class="project-info">
+              <h3>E-LEARNING LANDING PAGE</h3>
+              <h4>HTML CSS</h4>
             </div>
-          </li>
-        </ul>
+            <div class="project-overlay">
+              <a href="#" aria-label="View E-Learning Project">VIEW PROJECT</a>
+              <a href="#" aria-label="View E-Learning Code">VIEW CODE</a>
+            </div>
+          </div>
 
-        <ul>
-
-          <li>
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-3-large.webp"
-              alt=""
+              alt="Todo Web App"
             />
-            <h3>TODO WEB APP</h3>
-            <h4>HTML CSS JAVASCRIPT</h4>
-          </li>
+            <div class="project-info">
+              <h3>TODO WEB APP</h3>
+              <h4>HTML CSS JAVASCRIPT</h4>
+            </div>
+            <div class="project-overlay">
+              <a href="#" aria-label="View Todo App Project">VIEW PROJECT</a>
+              <a href="#" aria-label="View Todo App Code">VIEW CODE</a>
+            </div>
+          </div>
 
-          <li>
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-4-large.webp"
-              alt=""
+              alt="Entertainment Web App"
             />
-            <h3>ENTERTAINMENT WEB APP</h3>
-            <h4>HTML CSS JAVASCRIPT</h4>
-          </li>
-        </ul>
+            <div class="project-info">
+              <h3>ENTERTAINMENT WEB APP</h3>
+              <h4>HTML CSS JAVASCRIPT</h4>
+            </div>
+            <div class="project-overlay">
+              <a href="#" aria-label="View Entertainment App Project"
+                >VIEW PROJECT</a
+              >
+              <a href="#" aria-label="View Entertainment App Code">VIEW CODE</a>
+            </div>
+          </div>
 
-        <ul>
-
-          <li>
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-5-large.webp"
-              alt=""
+              alt="Memory Game"
             />
-            <h4>MEMORY GAME</h4>
-            <h4>HTML CSS JAVASCRIPT</h4>
-          </li>
+            <div class="project-info">
+              <h3>MEMORY GAME</h3>
+              <h4>HTML CSS JAVASCRIPT</h4>
+            </div>
+            <div class="project-overlay">
+              <a href="#" aria-label="View Memory Game Project">VIEW PROJECT</a>
+              <a href="#" aria-label="View Memory Game Code">VIEW CODE</a>
+            </div>
+          </div>
 
-          <li>
+          <div class="project-item">
             <img
               src="./assets/images/thumbnail-project-6-large.webp"
-              alt=""
+              alt="Art Gallery Showcase"
             />
-            <h4>ART GALLERY SHOWCASE</h4>
-            <h4>HTML CSS JAVASCRIPT</h4>
-          </li>
-        </ul>
+            <div class="project-info">
+              <h3>ART GALLERY SHOWCASE</h3>
+              <h4>HTML CSS JAVASCRIPT</h4>
+            </div>
+            <div class="project-overlay">
+              <a href="#" aria-label="View Art Gallery Project">VIEW PROJECT</a>
+              <a href="#" aria-label="View Art Gallery Code">VIEW CODE</a>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
-    <footer class="container-3">
+    <footer class="container-3" id="contact">
       <div class="container">
-        <div class="left-right">
-      <div class="left">
-        <h2>Contact</h2>
-        <div class="paragraph"><p>
-          I would love to hear about your project and how I could help. Please
-          fill in the form, and I’ll get back to you as soon as possible.
-        </p></div>
-        <div class="pattern-f"><img src="./assets/images/pattern-rings.svg" alt="pattern-rings"></div>
-      </div>
-      <div>
-        <form class="form-group">
-          <div class="name">
-            <label for="name">Name</label>
-            
-            <input type="text" />
+        <div class="contact-section">
+          <div class="contact-info">
+            <h2>Contact</h2>
+            <p>
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I'll get back to you as soon as
+              possible.
+            </p>
           </div>
-          <br>
-          <div>
-            <label for="email">email</label>
-            
-            <input type="email" />
-          </div>
-          <br>
-          <div>
-            <label for="MESSAGE">MESSAGE</label>
-            
-            <textarea name="Message" id="message"></textarea>
-          </div>
-          <br>
-          <div><button>SEND MESSAGE</button></div>
-          
-        </form>
-      </div>
-      </div>
+          <form class="form-group">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Smith"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
 
-      <div class="footer-l">
-        <div class="karim"><h3>Karimtech</h3></div>
-        <ul>
-          <li>
-            <img
-              src="./assets/images/icon-github.svg"
-              alt=""
-            />
-          </li>
-          <li>
+        <div class="footer-bottom">
+          <div class="karim">
+            <h3>Karimtech</h3>
+          </div>
+          <div class="footer-social">
+            <img src="./assets/images/icon-github.svg" alt="GitHub" />
             <img
               src="./assets/images/icon-frontend-mentor.svg"
-              alt=""
+              alt="Frontend Mentor"
             />
-          </li>
-          <li>
-            <img
-              src="./assets/images/icon-linkedin.svg"
-              alt=""
+            <img src="./assets/images/icon-linkedin.svg" alt="LinkedIn" />
+            <img src="./assets/images/icon-twitter.svg" alt="Twitter" />
+          </div>
+        </div>
+
+        <div class="pattern-f">
+          <svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke="#4EE1A0"
+              stroke-width="2"
+              fill="none"
+              opacity="0.5"
             />
-          </li>
-          <li class="twitter">
-            <img
-              src="./assets/images/icon-twitter.svg"
-              alt=""
-            />
-          </li>
-        </ul>
-      </div>
+          </svg>
+        </div>
       </div>
     </footer>
   </body>
